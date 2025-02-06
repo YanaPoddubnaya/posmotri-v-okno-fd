@@ -223,6 +223,7 @@ button {
   font-size: 18px;
   line-height: 22px;
   border: none;
+  padding-top: 1px;
 }
 
 .search-form__label {
@@ -280,7 +281,7 @@ button {
 }
 
 .search-form__label:active {
-outline: 1px solid #FFFFFF;
+  outline: 1px solid #FFFFFF;
 }
 
 .search-form__textfield:focus {
@@ -306,7 +307,7 @@ outline: 1px solid #FFFFFF;
 }
 
 input[type='checkbox']:checked + span:after {
-  content: ''; 
+  content: '';
 }
 
 .content__card-link_current {
