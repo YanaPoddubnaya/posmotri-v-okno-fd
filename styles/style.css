@@ -9,8 +9,6 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -18,6 +16,8 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 1200px;
   height: 800px;
 }
 
@@ -148,7 +148,7 @@ button {
   min-width: 194px;
 }
 
-.content__video-card-description-container{
+.content__video-card-description-container {
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -236,7 +236,7 @@ button {
   padding: 0px;
   gap: 10px;
   width: 225px;
-  height: 27px; 
+  height: 27px;
   border-width: 1px 0px;
   border-style: solid;
   border-color: #FFFFFF;
