@@ -104,7 +104,7 @@ button {
   width: 390px;
   height: 34px;
   margin-left: 2px;
-  }
+}
 
 .result__video {
   width: 711px;
@@ -125,12 +125,11 @@ button {
   flex-direction: column;
   align-items: flex-start;
   gap: 26px;
-  height: 659px;
+  height: 665px;
 }
 
 .content__list-item {
-  gap: 30px;
-  padding-bottom: 26px;
+  padding-bottom: 30px;
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -176,7 +175,7 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding-bottom: 26px;
+  padding-top: 2px;
 }
 
 .content__accent {
@@ -314,7 +313,7 @@ input[type='checkbox']:checked + span:after {
 .content__card-link_current {
 display: block;
 background: #545050;
-cursor: pointer
+cursor: pointer;
 }
 
 .content__card-link_current:hover {
