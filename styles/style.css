@@ -60,12 +60,13 @@ ol {
   text-align: start;
   grid-template-columns: 1fr 399px 1fr;
   padding-bottom: 133px;
+  align-items: flex-end;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
-  padding: 2px 30px 133px 30px;
+  padding: 2px 0px 133px 30px;
   gap: 5px;
 }
 
@@ -108,6 +109,7 @@ button {
   margin-left: 2px;
 }
 
+
 .result__video {
   width: 711px;
   display: flex;
@@ -117,17 +119,21 @@ button {
 
 .result__video-container {
   object-fit: cover;
-  padding: 211px 30px 0px 30px;
+  padding: 211px 0px 0px 30px;
   position: relative;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__details {
-  padding-top: 133px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 26px;
+  gap: 23px;
   height: 665px;
+  margin-left: 30px;
 }
 
 .content__list-item {
@@ -177,7 +183,7 @@ button {
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding-top: 2px;
+  padding-top: 1px;
 }
 
 .content__accent {
