@@ -64,7 +64,6 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  padding: 2px 0px 133px 0px;
   gap: 5px;
 }
 
@@ -126,7 +125,6 @@ button {
   flex-direction: column;
   align-items: flex-start;
   gap: 23px;
-  height: 665px;
 }
 
 .content__list-item {
