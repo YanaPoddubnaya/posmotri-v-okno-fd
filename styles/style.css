@@ -58,15 +58,15 @@ ol {
 .content {
   display: grid;
   text-align: start;
-  grid-template-columns: 1fr 399px 1fr;
-  padding-bottom: 133px;
+  grid-template-columns: 711px 399px;
   align-items: flex-end;
+  gap: 30px;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
-  padding: 2px 0px 133px 30px;
+  padding: 2px 0px 133px 0px;
   gap: 5px;
 }
 
@@ -82,7 +82,7 @@ ol {
 .search-form__submit-button {
   width: 194px;
   height: 34px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 /* общие для кнопок*/
@@ -110,18 +110,17 @@ button {
 }
 
 .result__video {
-  width: 711px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .result__video-container {
-  object-fit: cover;
-  margin: 211px 0 0 30px;
   position: relative;
   object-fit: cover;
   object-position: center;
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
 }
 
 .content__details {
@@ -130,7 +129,6 @@ button {
   align-items: flex-start;
   gap: 23px;
   height: 665px;
-  margin-left: 30px;
 }
 
 .content__list-item {
@@ -228,7 +226,6 @@ button {
   font-size: 18px;
   line-height: 22px;
   border: none;
-  padding-top: 1px;
 }
 
 .search-form__label {
