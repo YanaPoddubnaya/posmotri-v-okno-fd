@@ -109,7 +109,6 @@ button {
   margin-left: 2px;
 }
 
-
 .result__video {
   width: 711px;
   display: flex;
@@ -119,10 +118,8 @@ button {
 
 .result__video-container {
   object-fit: cover;
-  padding: 211px 0px 0px 30px;
+  margin: 211px 0 0 30px;
   position: relative;
-  width:100%;
-  height: 100%;
   object-fit: cover;
   object-position: center;
 }
