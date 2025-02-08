@@ -291,7 +291,7 @@ button {
   border: none;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
   cursor: pointer;
@@ -312,7 +312,6 @@ input[type='checkbox']:checked + span:after {
 
 .content__card-link_current {
   display: block;
-  background: #545050;
   cursor: pointer;
 }
 
@@ -324,6 +323,12 @@ input[type='checkbox']:checked + span:after {
   outline: none;
   box-sizing: border-box;
   border: 1px solid #FFFFFF;
+  background: none;
+}
+
+.content__card-link:active {
+  border: none;
+  background: #545050;
 }
 
 .search-form__submit-button:focus {
